@@ -11,7 +11,7 @@ const withAuth = require('../utils/auth');
 // });
 
 // homepage without login auth so I can test things
-router.get('/', async (req, res) => {
+router.get('/', withAuth, async (req, res) => {
     res.render('index', {
       loggedIn: req.session.loggedIn,
     });
