@@ -25,7 +25,16 @@ The basic chatroom structure is built with React to make pages dynamic and reusa
 - Passwords
 - Friends lists
 
+### Screen shots of the live pages
+<img width="952" alt="LoginPage" src="https://github.com/wtdunlap/Chatnonymous/assets/148725514/e1673eaa-0ff5-4b24-af2e-e0f6cd49dfe3">
+
+<img width="959" alt="Chatroom" src="https://github.com/wtdunlap/Chatnonymous/assets/148725514/acff9437-7c77-457a-a08e-409ad7e29276">
+
+
+
+
 ### Project Contributors
+
 
 Gina Kutz
 
