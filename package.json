@@ -4,7 +4,8 @@
   "description": "Demo socket.io project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "author": "Andrew Errity",
   "license": "ISC",
@@ -19,6 +20,10 @@
     "jquery": "^3.7.1",
     "socket.io": "^1.7.3",
     "mysql2": "^2.2.5",
-    "sequelize": "^6.3.5"
+    "sequelize": "^6.3.5",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
   }
 }
